@@ -1,0 +1,7 @@
+// 1000000.00% prestige bonus
+setInterval(function () {localStorage.setItem("prestigeSave", JSON.stringify({
+  "prestigeGain": 1000000,
+  "s": 25,
+  "m": "00",
+  "h": 0
+}))}, 5)
